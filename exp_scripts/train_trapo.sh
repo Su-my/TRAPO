@@ -6,6 +6,7 @@ export RAY_DEDUP_LOGS=1
 # Set XFormers backend to avoid CUDA errors
 export VLLM_ATTENTION_BACKEND=XFORMERS
 # export CUDA_VISIBLE_DEVICES=1,2,3,4
+export WANDB_API_KEY=xxx
 
 export MODEL_PATH=/data1/sumingyu/checkpoints/Qwen2.5-Math-7B-16k-think-Init
 export EXP_NAME=verl-our-v35-original-dynamic-denom-clip0.1-25start-100end-luffy

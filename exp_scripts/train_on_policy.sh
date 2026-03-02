@@ -5,7 +5,7 @@ export RAY_BACKEND_LOG_LEVEL=debug
 export RAY_DEDUP_LOGS=1
 # Set XFormers backend to avoid CUDA errors
 export VLLM_ATTENTION_BACKEND=XFORMERS
-export WANDB_API_KEY=f965322c0067b96675ac29ec31ccc0ea4ce3d0dc
+export WANDB_API_KEY=xxx
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 
 export MODEL_PATH=/data1/sumingyu/checkpoints/trapo_model
